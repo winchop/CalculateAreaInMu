@@ -12,7 +12,7 @@ A simple QGIS plugin to calculate polygon areas and store the result in **Chines
 
 ## 🌟 功能特点 / Features
 
-- **一键计算**：选中面图层后，点击工具即可批量计算所有要素的面积（亩）  
+- **一键计算**：选中面图层后，右键菜单中点击工具即可批量计算所有要素的面积（亩）  
 - **自动建字段**：若图层中不存在 `Mu` 字段，插件会自动创建（类型为双精度浮点数）  
 - **智能处理无效几何**：跳过空或无效几何，并将其 `Mu` 值设为 `NULL`  
 - **支持撤销**：整个计算过程封装在 QGIS 撤销栈中，可一键撤销  
@@ -44,7 +44,7 @@ A simple QGIS plugin to calculate polygon areas and store the result in **Chines
 
 1. 加载一个 **面矢量图层**（如 Shapefile、GeoPackage 等）  
 2. 在图层面板中 **选中该图层**  
-3. 点击菜单或工具栏中的 **“计算面积（亩）…”** 按钮  
+3. 右键该图层弹出菜单，单击 **“计算面积（亩）…”** 按钮  
 4. 插件将自动：
    - 检查图层是否为多边形类型
    - 添加 `Mu` 字段（如不存在）
