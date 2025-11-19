@@ -1,0 +1,17 @@
+[general]
+name=Calculate Area in Mu
+description=Calculate polygon area and store result in Chinese mu (1 mu = 666.67 m²)
+about=This plugin calculates the area of each polygon feature in square meters and converts it to Chinese mu (亩), storing the result in a new field named 'Mu'. Invalid or empty geometries are set to NULL. The operation is undoable and works on any editable polygon vector layer.
+version=1.0
+qgisMinimumVersion=3.16
+qgisMaximumVersion=3.99
+author=Chopper ZhangWenChao
+email=winchop@gmail.com
+homepage=https://github.com/winchop/calculate_area_in_mu
+repository=https://github.com/winchop/calculate_area_in_mu
+tracker=https://github.com/winchop/calculate_area_in_mu/issues
+changelog=Initial release.
+tags=area, mu, 亩, polygon, calculation, 面积计算, 土地面积
+category=Vector
+experimental=False
+deprecated=False
